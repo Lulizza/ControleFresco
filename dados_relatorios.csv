@@ -2,7 +2,7 @@
 kpi,DESPERDÍCIO MÉDIO GERAL,12.3%,-3.2%,badge-green,Média consolidada de descarte,
 kpi,MAIOR FOCO DE PERDA,Vegetais,Atenção,badge-yellow,Responsável por 24% das perdas totais,
 kpi,TOTAL DESPERDIÇADO (MÊS),380 kg,-42 kg,badge-green,Alimentos descartados neste ciclo,
-kpi,CUSTO ESTIMADO DA PERDA,R$ 4.250,+12%,badge-green,Impacto financeiro direto estimado,
+kpi,CUSTO ESTIMADO DA PERDA,R$ 4.250,+12%,badge-red,Impacto financeiro direto estimado,
 grafico_vertical,Jan,16%,,bg-salmon,,80
 grafico_vertical,Fev,14%,,bg-salmon,,70
 grafico_vertical,Mar,15%,,bg-salmon,,75

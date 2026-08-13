@@ -94,6 +94,7 @@
 
 .badge-green { background: var(--bg-normal); color: #065f46; }
 .badge-yellow { background: var(--bg-warning); color: #92400e; }
+.badge-red { background: var(--bg-critical); color: #920e0e; }
 
 .kpi-subtext {
     font-size: 0.8rem;
