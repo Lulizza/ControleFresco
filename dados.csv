@@ -10,8 +10,8 @@ desperdicio,Carnes,Patinho,assets/img/carnes/icon-patinho.jpg,CRÍTICO,badge-cri
 desperdicio,Carnes,Peito de Frango,assets/img/carnes/icon-peito.jpg,NORMAL,badge-normal,85 kg,Taxa de desperdício,8%,text-normal,8,bg-normal
 desperdicio,Carnes,Sobrecoxa Desossada,assets/img/carnes/icon-sobrecoxa.jpg,ATENÇÃO,badge-warning,28 kg,Taxa de desperdício,11%,text-warning,11,bg-warning
 reposicao,Grãos,Arroz Branco,assets/img/graos/icon-arroz.jpg,CRÍTICO,badge-critical,10 kg,Estoque mínimo,100 kg,text-muted,10,bg-critical
-desperdicio,Grãos,Arroz Branco,assets/img/graos/icon-arroz.jpg,CRÍTICO,badge-critical,10 kg,Taxa de desperdício,10%,text-critical,10,bg-critical
-desperdicio,Grãos,Arroz Integral,assets/img/graos/icon-arrozI.jpg,NORMAL,badge-normal,35 kg,Taxa de desperdício,40%,text-normal,87,bg-normal
+desperdicio,Grãos,Arroz Branco,assets/img/graos/icon-arroz.jpg,ATENÇÃO,badge-warning,10 kg,Taxa de desperdício,10%,text-warning,10,bg-warning
+desperdicio,Grãos,Arroz Integral,assets/img/graos/icon-arrozI.jpg,CRÍTICO,badge-critical,35 kg,Taxa de desperdício,40%,text-critical,87,bg-critical
 reposicao,Grãos,Arroz Parboilizado,assets/img/graos/icon-arrozP.jpg,NORMAL,badge-normal,45 kg,Estoque mínimo,50 kg,text-muted,90,bg-normal
 desperdicio,Grãos,Feijão Preto,assets/img/graos/icon-feijao.jpg,NORMAL,badge-normal,120 kg,Taxa de desperdício,2%,text-normal,2,bg-normal
 reposicao,Grãos,Gergelim,assets/img/graos/icon-gergelim.jpg,ATENÇÃO,badge-warning,8 kg,Estoque mínimo,15 kg,text-warning,15,bg-warning
@@ -35,7 +35,7 @@ reposicao,Vegetais,Berinjela,assets/img/vegetais/icon-berinjela.jpg,NORMAL,badge
 reposicao,Vegetais,Beterraba,assets/img/vegetais/icon-beterraba.jpg,ATENÇÃO,badge-warning,7 kg,Estoque mínimo,15 kg,text-muted,46,bg-warning
 reposicao,Vegetais,Cenoura,assets/img/vegetais/icon-cenoura.jpg,ATENÇÃO,badge-warning,8 kg,Estoque mínimo,15 kg,text-muted,53,bg-warning
 desperdicio,Vegetais,Couve,assets/img/vegetais/icon-couve.jpg,CRÍTICO,badge-critical,3 kg,Taxa de desperdício,38%,text-critical,38,bg-critical
-reposicao,Vegetais,Gengibre,assets/img/vegetais/icon-gengibre.jpg,NORMAL,badge-normal,4 kg,Estoque mínimo,9 kg,text-normal,9,bg-normal
+reposicao,Vegetais,Gengibre,assets/img/vegetais/icon-gengibre.jpg,ATENÇÃO,badge-warning,4 kg,Estoque mínimo,9 kg,text-muted,9,bg-warning
 reposicao,Vegetais,Rúcula,assets/img/vegetais/icon-rucula.jpg,CRÍTICO,badge-critical,1 kg,Estoque mínimo,5 kg,text-muted,20,bg-critical
 desperdicio,Vegetais,Salsinha,assets/img/vegetais/icon-salsinha.jpg,ATENÇÃO,badge-warning,2 kg,Taxa de desperdício,15%,text-warning,15,bg-warning
 desperdicio,Vegetais,Tomate,assets/img/vegetais/icon-tomate.jpg,CRÍTICO,badge-critical,10 kg,Taxa de desperdício,55%,text-critical,55,bg-critical
