@@ -1,0 +1,41 @@
+﻿secao,categoria,nome,imagem,badge_texto,badge_classe,estoque_atual,texto_secundario,valor_secundario,classe_secundaria,barra_progresso,barra_classe
+reposicao,Carnes,Coração de Galinha,assets/img/carnes/icon-coracao.png,CRÍTICO,badge-critical,4 kg,Estoque mínimo,50 kg,text-muted,8,bg-critical
+desperdicio,Carnes,Costela Suína,assets/img/carnes/icon-costela.jpeg,NORMAL,badge-normal,60 kg,Taxa de desperdício,3%,text-normal,3,bg-normal
+reposicao,Carnes,Fígado Bovino,assets/img/carnes/icon-figado.jpg,ATENÇÃO,badge-warning,12 kg,Estoque mínimo,30 kg,text-muted,40,bg-warning
+reposicao,Carnes,Filé Mignon,assets/img/carnes/icon-file.jpg,NORMAL,badge-normal,18 kg,Estoque mínimo,25 kg,text-muted,72,bg-normal
+reposicao,Carnes,Língua Bovina,assets/img/carnes/icon-lingua.jpg,CRÍTICO,badge-critical,3 kg,Estoque mínimo,20 kg,text-muted,15,bg-critical
+desperdicio,Carnes,Miolo de Acém,assets/img/carnes/icon-miolo.jpg,ATENÇÃO,badge-warning,45 kg,Taxa de desperdício,14%,text-warning,14,bg-warning
+reposicao,Carnes,Paleta,assets/img/carnes/icon-paleta.jpg,ATENÇÃO,badge-warning,22 kg,Estoque mínimo,40 kg,text-muted,55,bg-warning
+desperdicio,Carnes,Patinho,assets/img/carnes/icon-patinho.jpg,CRÍTICO,badge-critical,70 kg,Taxa de desperdício,50%,text-critical,50,bg-critical
+desperdicio,Carnes,Peito de Frango,assets/img/carnes/icon-peito.jpg,NORMAL,badge-normal,85 kg,Taxa de desperdício,8%,text-normal,8,bg-normal
+desperdicio,Carnes,Sobrecoxa Desossada,assets/img/carnes/icon-sobrecoxa.jpg,ATENÇÃO,badge-warning,28 kg,Taxa de desperdício,11%,text-warning,11,bg-warning
+reposicao,Grãos,Arroz Branco,assets/img/graos/icon-arroz.jpg,CRÍTICO,badge-critical,10 kg,Estoque mínimo,100 kg,text-muted,10,bg-critical
+desperdicio,Grãos,Arroz Branco,assets/img/graos/icon-arroz.jpg,CRÍTICO,badge-critical,10 kg,Taxa de desperdício,10%,text-critical,10,bg-critical
+desperdicio,Grãos,Arroz Integral,assets/img/graos/icon-arrozI.jpg,NORMAL,badge-normal,35 kg,Taxa de desperdício,40%,text-normal,87,bg-normal
+reposicao,Grãos,Arroz Parboilizado,assets/img/graos/icon-arrozP.jpg,NORMAL,badge-normal,45 kg,Estoque mínimo,50 kg,text-muted,90,bg-normal
+desperdicio,Grãos,Feijão Preto,assets/img/graos/icon-feijao.jpg,NORMAL,badge-normal,120 kg,Taxa de desperdício,2%,text-normal,2,bg-normal
+reposicao,Grãos,Gergelim,assets/img/graos/icon-gergelim.jpg,ATENÇÃO,badge-warning,8 kg,Estoque mínimo,15 kg,text-warning,15,bg-warning
+reposicao,Grãos,Grão de Bico,assets/img/graos/icon-graoBico.jpg,ATENÇÃO,badge-warning,12 kg,Estoque mínimo,20 kg,text-muted,60,bg-warning
+desperdicio,Grãos,Lentilha,assets/img/graos/icon-lentilha.jpg,CRÍTICO,badge-critical,15 kg,Taxa de desperdício,35%,text-critical,35,bg-critical
+reposicao,Grãos,Milho,assets/img/graos/icon-milho.jpg,NORMAL,badge-normal,45 kg,Estoque mínimo,30 kg,text-muted,100,bg-normal
+desperdicio,Grãos,Soja,assets/img/graos/icon-soja.jpg,ATENÇÃO,badge-warning,50 kg,Taxa de desperdício,12%,text-warning,12,bg-warning
+desperdicio,Laticínios,Chantilly,assets/img/laticinios/icon-chantilly.jpg,CRÍTICO,badge-critical,10 L,Taxa de desperdício,45%,text-critical,45,bg-critical
+desperdicio,Laticínios,Coalhada,assets/img/laticinios/icon-coalhada.jpg,ATENÇÃO,badge-warning,12 L,Taxa de desperdício,16%,text-warning,16,bg-warning
+reposicao,Laticínios,Cream Cheese,assets/img/laticinios/icon-cream cheese.jpg,ATENÇÃO,badge-warning,4 kg,Estoque mínimo,10 kg,text-muted,40,bg-warning
+reposicao,Laticínios,Creme de Leite,assets/img/laticinios/icon-cremeLeite.jpg,NORMAL,badge-normal,25 L,Estoque mínimo,20 L,text-muted,100,bg-normal
+desperdicio,Laticínios,Iogurte Natural,assets/img/laticinios/icon-iogurte.jpg,ATENÇÃO,badge-warning,15 L,Taxa de desperdício,18%,text-warning,18,bg-warning
+reposicao,Laticínios,Kefir,assets/img/laticinios/icon-kefir.jpg,CRÍTICO,badge-critical,1 L,Estoque mínimo,8 L,text-muted,12,bg-critical
+desperdicio,Laticínios,Leite Integral,assets/img/laticinios/icon-leite.jpg,CRÍTICO,badge-critical,30 L,Taxa de desperdício,40%,text-critical,40,bg-critical
+desperdicio,Laticínios,Manteiga,assets/img/laticinios/icon-manteiga.jpg,NORMAL,badge-normal,40 kg,Taxa de desperdício,4%,text-normal,4,bg-normal
+reposicao,Laticínios,Queijo Mussarela,assets/img/laticinios/icon-queijo.jpg,CRÍTICO,badge-critical,2 kg,Estoque mínimo,15 kg,text-muted,13,bg-critical
+reposicao,Laticínios,Requeijão,assets/img/laticinios/icon-requeijao.jpg,NORMAL,badge-normal,20 kg,Estoque mínimo,10 kg,text-muted,100,bg-normal
+desperdicio,Vegetais,Alface,assets/img/vegetais/icon-alface.jpg,ATENÇÃO,badge-warning,5 kg,Taxa de desperdício,20%,text-warning,20,bg-warning
+desperdicio,Vegetais,Batata,assets/img/vegetais/icon-batata.jpg,NORMAL,badge-normal,80 kg,Taxa de desperdício,5%,text-normal,5,bg-normal
+reposicao,Vegetais,Berinjela,assets/img/vegetais/icon-berinjela.jpg,NORMAL,badge-normal,18 kg,Estoque mínimo,10 kg,text-muted,100,bg-normal
+reposicao,Vegetais,Beterraba,assets/img/vegetais/icon-beterraba.jpg,ATENÇÃO,badge-warning,7 kg,Estoque mínimo,15 kg,text-muted,46,bg-warning
+reposicao,Vegetais,Cenoura,assets/img/vegetais/icon-cenoura.jpg,ATENÇÃO,badge-warning,8 kg,Estoque mínimo,15 kg,text-muted,53,bg-warning
+desperdicio,Vegetais,Couve,assets/img/vegetais/icon-couve.jpg,CRÍTICO,badge-critical,3 kg,Taxa de desperdício,38%,text-critical,38,bg-critical
+reposicao,Vegetais,Gengibre,assets/img/vegetais/icon-gengibre.jpg,NORMAL,badge-normal,4 kg,Estoque mínimo,9 kg,text-normal,9,bg-normal
+reposicao,Vegetais,Rúcula,assets/img/vegetais/icon-rucula.jpg,CRÍTICO,badge-critical,1 kg,Estoque mínimo,5 kg,text-muted,20,bg-critical
+desperdicio,Vegetais,Salsinha,assets/img/vegetais/icon-salsinha.jpg,ATENÇÃO,badge-warning,2 kg,Taxa de desperdício,15%,text-warning,15,bg-warning
+desperdicio,Vegetais,Tomate,assets/img/vegetais/icon-tomate.jpg,CRÍTICO,badge-critical,10 kg,Taxa de desperdício,55%,text-critical,55,bg-critical

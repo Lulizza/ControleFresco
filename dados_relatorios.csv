@@ -1,0 +1,20 @@
+﻿tipo,titulo,valor1,valor2,classe1,classe2,tamanho
+kpi,DESPERDÍCIO MÉDIO GERAL,12.3%,-3.2%,badge-green,Média consolidada de descarte,
+kpi,MAIOR FOCO DE PERDA,Vegetais,Atenção,badge-yellow,Responsável por 24% das perdas totais,
+kpi,TOTAL DESPERDIÇADO (MÊS),380 kg,-42 kg,badge-green,Alimentos descartados neste ciclo,
+kpi,CUSTO ESTIMADO DA PERDA,R$ 4.250,+12%,badge-green,Impacto financeiro direto estimado,
+grafico_vertical,Jan,16%,,bg-salmon,,80
+grafico_vertical,Fev,14%,,bg-salmon,,70
+grafico_vertical,Mar,15%,,bg-salmon,,75
+grafico_vertical,Abr,11%,,bg-salmon,,55
+grafico_vertical,Mai,12%,,bg-salmon,,60
+grafico_vertical,Jun,8%,,bg-salmon,,40
+grafico_horizontal,Vegetais,115 kg,24%,bg-red,text-red,100
+grafico_horizontal,Carnes,98 kg,19%,bg-red,text-red,80
+grafico_horizontal,Laticínios,72 kg,15%,bg-orange,text-orange,60
+grafico_horizontal,Congelados,48 kg,12%,bg-orange,text-orange,48
+grafico_horizontal,Grãos,32 kg,8%,bg-green,text-green,32
+grafico_horizontal,Bebidas,15 kg,4%,bg-green,text-green,16
+recomendacao,SUCESSO,A taxa de desperdício em Carnes diminuiu 5% desde o ajuste de porcionamento sugerido no mês passado.,,tag-success,,
+recomendacao,CRÍTICO,Vegetais continuam excedendo a margem saudável (24%). Sugerimos reduzir as compras automáticas de terça-feira em 15%.,,tag-critical,,
+recomendacao,SUGERIDO,"Laticínios apresentam desvio de validade constante. Ajuste o posicionamento 'Primeiro que Vence, Primeiro que Sai' (PVPS) nas gôndolas.",,tag-warning,,

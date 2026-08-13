@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ControleFresco - Relatórios</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/relatorios.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="logo">
+            <div class="logo-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z"></path><line x1="6" y1="17" x2="18" y2="17"></line></svg>
+            </div>
+            <span class="logo-text">ControleFresco</span>
+        </div>
+
+        <nav class="nav-menu">
+            <a href="index.html" class="nav-item">Estoque</a>
+            <a href="relatorios.html" class="nav-item active">Relatórios</a>
+        </nav>
+
+        <div class="user-actions">
+            <!-- ... barra de pesquisa e avatar iguais ... -->
+            <div class="search-bar">
+                <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                <input type="text" placeholder="Busque relatórios ou categorias...">
+            </div>
+            <div class="user-profile">
+                <img src="https://i.pravatar.cc/150?img=11" alt="Avatar do usuário">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main class="main-content">
+        
+        <div class="page-header">
+            <div class="page-title">
+                <h1>Relatórios de Desperdício 📊</h1>
+                <p>Monitore desvios de compra, validades expiradas e receba sugestões automáticas de reajuste de estoque.</p>
+            </div>
+        </div>
+
+        <!-- KPIs: ID kpi-container -->
+        <section class="kpi-grid" id="kpi-container">
+            <!-- O JS injetará os KPIs aqui -->
+        </section>
+
+        <!-- Seção de Gráficos -->
+        <section class="charts-grid">
+            
+            <!-- Gráfico 1 (Barras Verticais) -->
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3>Desperdício Médio Geral do Mercado (%)</h3>
+                    <p>Média mensal ponderada do descarte sobre o volume de compra</p>
+                </div>
+                <div class="bar-chart-container">
+                    <div class="y-axis">
+                        <span>20%</span><span>15%</span><span>10%</span><span>5%</span><span>0%</span>
+                    </div>
+                    <!-- ID grafico-vertical-container -->
+                    <div class="chart-bars" id="grafico-vertical-container">
+                        <!-- O JS injetará as linhas de grade e as barras aqui -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gráfico 2 (Barras Horizontais) -->
+            <div class="chart-card">
+                <div class="chart-header">
+                    <h3>Desperdício por Categoria</h3>
+                    <p>Análise comparativa das perdas por tipo de alimento no mês atual</p>
+                </div>
+                <!-- ID grafico-horizontal-container -->
+                <div class="horiz-chart-container" id="grafico-horizontal-container">
+                    <!-- O JS injetará as barras horizontais aqui -->
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Recomendações: ID recomendacoes-container -->
+        <section class="recommendations-box">
+            <h3 class="rec-title">Recomendações Inteligentes do EstoqueChef 🧠</h3>
+            <div class="rec-list" id="recomendacoes-container">
+                <!-- O JS injetará as recomendações aqui -->
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Script exclusivo da página de relatórios -->
+    <script src="/assets/js/relatorios.js"></script>
+</body>
+</html>
