@@ -1,0 +1,17 @@
+﻿secao,categoria,nome,imagem,badge_texto,badge_classe,estoque_atual,texto_secundario,valor_secundario,classe_secundaria,barra_progresso,barra_classe
+desperdicio,Carnes,Patinho,assets/img/carnes/icon-patinho.jpg,CRÍTICO,badge-critical,70 kg,Taxa de desperdício,50%,text-critical,50,bg-critical
+desperdicio,Carnes,Miolo de Acém,assets/img/carnes/icon-miolo.jpg,ATENÇÃO,badge-warning,45 kg,Taxa de desperdício,14%,text-warning,14,bg-warning
+desperdicio,Carnes,Sobrecoxa desossada,assets/img/carnes/icon-sobrecoxa.jpg,ATENÇÃO,badge-warning,28 kg,Taxa de desperdício,11%,text-warning,11,bg-warning
+desperdicio,Carnes,Costela suína,assets/img/carnes/icon-costela.jpeg,NORMAL,badge-normal,60 kg,Taxa de desperdício,3%,text-normal,3,bg-normal
+desperdicio,Carnes,Peito de frango,assets/img/carnes/icon-peito.jpg,NORMAL,badge-normal,85 kg,Taxa de desperdício,8%,text-normal,8,bg-normal
+reposicao,Carnes,Coração de galinha,assets/img/carnes/icon-coracao.png,CRÍTICO,badge-critical,4 kg,Estoque mínimo,50 kg,text-muted,8,bg-critical
+reposicao,Carnes,Língua bovina,assets/img/carnes/icon-lingua.jpg,CRÍTICO,badge-critical,15 kg,Estoque mínimo,50 kg,text-muted,30,bg-critical
+reposicao,Carnes,Fígado bovino,assets/img/carnes/icon-figado.jpg,CRÍTICO,badge-critical,7 kg,Estoque mínimo,30 kg,text-muted,23,bg-critical
+reposicao,Carnes,Paleta,assets/img/carnes/icon-paleta.jpg,ATENÇÃO,badge-warning,22 kg,Estoque mínimo,40 kg,text-muted,55,bg-warning
+reposicao,Carnes,Filé mignon suíno,assets/img/carnes/icon-file.jpg,NORMAL,badge-normal,18 kg,Estoque mínimo,25 kg,text-muted,72,bg-normal
+desperdicio,Vegetais,Tomate Carmem,assets/img/Icons/icon-vegetal.svg,CRÍTICO,badge-critical,15 kg,Taxa de desperdício,45%,text-critical,45,bg-critical
+reposicao,Vegetais,Alface Crespa,assets/img/Icons/icon-vegetal.svg,ATENÇÃO,badge-warning,2 kg,Estoque mínimo,10 kg,text-muted,20,bg-warning
+desperdicio,Laticínios,Leite Integral,assets/img/Icons/icon-laticinio.svg,ATENÇÃO,badge-warning,12 L,Taxa de desperdício,18%,text-warning,18,bg-warning
+reposicao,Laticínios,Queijo Prato,assets/img/Icons/icon-laticinio.svg,CRÍTICO,badge-critical,1 kg,Estoque mínimo,10 kg,text-muted,10,bg-critical
+desperdicio,Grãos,Feijão Preto,assets/img/Icons/icon-graos.svg,NORMAL,badge-normal,120 kg,Taxa de desperdício,2%,text-normal,2,bg-normal
+reposicao,Grãos,Arroz Branco,assets/img/Icons/icon-graos.svg,NORMAL,badge-normal,45 kg,Estoque mínimo,50 kg,text-muted,90,bg-normal

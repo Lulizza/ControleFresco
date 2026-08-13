@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ControleFresco - Dashboard</title>
+    <link rel="stylesheet" href="assets/css/global.css">
+    <!-- Importando fonte Inter do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="logo">
+            <div class="logo-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z"></path><line x1="6" y1="17" x2="18" y2="17"></line></svg>
+            </div>
+            <span class="logo-text">ControleFresco</span>
+        </div>
+
+        <nav class="nav-menu">
+            <a href="#" class="nav-item">Início</a>
+            <a href="#" class="nav-item active">Estoque</a>
+            <a href="#" class="nav-item">Relatórios</a>
+            <a href="#" class="nav-item">Fornecedores</a>
+            <a href="#" class="nav-item">Configurações</a>
+        </nav>
+
+        <div class="user-actions">
+            <div class="search-bar">
+                <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                <input type="text" placeholder="Busque por item ou produto">
+            </div>
+            <div class="user-profile">
+                <img src="https://i.pravatar.cc/150?img=11" alt="Avatar do usuário">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main class="main-content">
+        
+        <!-- Saudação -->
+        <section class="greeting-section">
+            <h1>Hey, João! 👋</h1>
+            <p>Confira o status do seu estoque hoje e reduza o desperdício em tempo real.</p>
+        </section>
+
+        <!-- Categorias -->
+        <section class="categories-section">
+            <h2>EXPLORAR CATEGORIAS</h2>
+            <div class="categories-list">
+                <!-- Adicionado a classe 'category-btn' e o atributo 'data-categoria' para linkar com o JS -->
+                <div class="category-item category-btn" data-categoria="Carnes">
+                    <div class="category-icon active-cat"><img src="assets/img/Icons/icon-carne.svg" alt="Carnes"></div>
+                    <span>Carnes</span>
+                </div>
+                <div class="category-item category-btn" data-categoria="Vegetais">
+                    <div class="category-icon"><img src="assets/img/Icons/icon-vegetal.svg" alt="Vegetais"></div>
+                    <span>Vegetais</span>
+                </div>
+                <div class="category-item category-btn" data-categoria="Laticínios">
+                    <div class="category-icon"><img src="assets/img/Icons/icon-laticinio.svg" alt="Laticínios"></div>
+                    <span>Laticínios</span>
+                </div>
+                <div class="category-item category-btn" data-categoria="Grãos">
+                    <div class="category-icon"><img src="assets/img/Icons/icon-graos.svg" alt="Grãos"></div>
+                    <span>Grãos</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Alta taxa de desperdício -->
+        <section class="items-section">
+            <div class="section-header">
+                <div>
+                    <h2>Itens com alta taxa de desperdício</h2>
+                    <p>Produtos que precisam de atenção imediata ou ajuste de compra</p>
+                </div>
+                <a href="#" class="view-all">Ver todos ></a>
+            </div>
+
+            <!-- Div esvaziada e com o ID 'grid-desperdicio' -->
+            <div class="cards-grid" id="grid-desperdicio">
+                <!-- Os cards de desperdício serão injetados aqui via main.js -->
+            </div>
+        </section>
+
+        <!-- Sugestões de reposição -->
+        <section class="items-section">
+            <div class="section-header">
+                <div>
+                    <h2>Sugestões de reposição</h2>
+                    <p>Itens próximos do estoque mínimo de segurança</p>
+                </div>
+                <a href="#" class="view-all">Ver sugestões ></a>
+            </div>
+
+            <!-- Div esvaziada e com o ID 'grid-reposicao' -->
+            <div class="cards-grid" id="grid-reposicao">
+                <!-- Os cards de reposição serão injetados aqui via main.js -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Conectando o script que faz a mágica acontecer -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
